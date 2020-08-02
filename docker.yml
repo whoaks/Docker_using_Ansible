@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: all
   tasks:
   - name: Creation of yum repo in cloud
     yum_repository:
